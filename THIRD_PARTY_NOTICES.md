@@ -19,8 +19,16 @@ The gallery license does not relicense third-party trademarks, vendor logos or e
 
 The projects use foundations including React, Next.js, Vite, shadcn/ui, Base UI, React Flow, Phosphor Icons and Hugeicons. Consult the corresponding source project and dependency notices for their individual terms. The case descriptions credit the application-level work without claiming authorship of those foundations.
 
-Only the four public repositories listed above are included in this initial collection. No private source code or private repository inventory is part of this repository.
+Only reviewed public repositories in the catalog are included in this collection. No private source code or private repository inventory is part of this repository.
 
 ## Grain Studio dock reference
 
 Grain Studio independently adapts proximity and tactile-feedback ideas from [ThreeUI Community by Meng To](https://github.com/MengTo/threeui). Its [original notices](https://github.com/harshith-vaddiparthy/grain-studio/blob/1efb17c2f33c5e2a3e11ab01293633725ae7a2dc/THIRD_PARTY_NOTICES.md) reproduce the MIT notice (Copyright 2026 Meng To) for the audited ThreeUI revision fbc9b3d61b0ef4b2e93b42e4fffa617ca277429b. That attribution stays attached when adapting the source.
+
+## Additional interface studies
+
+**Talent Lens** — Application prototype by Harshith Vaddiparthy, built on shadcn/ui and Base UI. The TweakCN cyberpunk preset supplies the visual foundation, with Outfit and Fira Code. [Source](https://github.com/harshith-vaddiparthy/talent-lens/tree/c92ae8d0f255214c0ecf4b283b4f9a33fa7ca75a); [MIT license](https://github.com/harshith-vaddiparthy/talent-lens/blob/c92ae8d0f255214c0ecf4b283b4f9a33fa7ca75a/LICENSE).
+
+**Kenzai Legal Vault** — Document-workflow interface by Harshith Vaddiparthy. shadcn/Base UI provides the components, the browser displays the PDF, and Firecrawl PDF Inspector provides the parsing engine. [Source](https://github.com/harshith-vaddiparthy/kenzai-legal-vault/tree/ba0d2104c0cdf376085fae60e6601127d18ccb35); [MIT license](https://github.com/harshith-vaddiparthy/kenzai-legal-vault/blob/ba0d2104c0cdf376085fae60e6601127d18ccb35/LICENSE).
+
+The Legal Vault fixture is an original, explicitly fictional project brief supplied for reproducing the interface study. It contains no client records. The browser PDF viewer, parser, fonts and component libraries retain their respective terms.

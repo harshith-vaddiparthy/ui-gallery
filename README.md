@@ -27,6 +27,8 @@ Open the loopback URL Vite prints. For a production build, run `npm run build`, 
 - [AI Content Dashboard](docs/ai-content-dashboard.md) — a content workspace joining overview, library and drafting flows.
 - [UGC Genie](docs/ugc-genie.md) — a visible, staged workflow for product-video production.
 - [PulseCRM](docs/pulse-crm.md) — pipeline, relationship and next-action views using bundled demo records.
+- [Talent Lens](docs/talent-lens.md) — a demonstration dashboard, searchable library and document metadata sheet.
+- [Kenzai Legal Vault](docs/legal-vault.md) — original PDF pages alongside extraction and cited local search.
 
 Screenshots show actual implementations. Each caption states the sample/demo context. A screenshot is not a claim about customer adoption or production outcomes. Application previews may require their own configuration; follow the individual source README.
 

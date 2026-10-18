@@ -3,7 +3,7 @@ export const UI_GALLERY = {
   "repository": "https://github.com/harshith-vaddiparthy/ui-gallery",
   "canonical": "https://www.harshith.com/ui",
   "title": "UI Gallery — Harshith Vaddiparthy",
-  "description": "Four open-source interfaces for editing, content operations and reviewable workflows, with source code, design decisions and clear project attribution."
+  "description": "Open-source dashboards, editors and document workflows by Harshith Vaddiparthy, with real screens, design decisions and source code."
 };
 
 export const UI_PROJECTS = [
@@ -261,5 +261,136 @@ export const UI_PROJECTS = [
       "name": "MIT",
       "url": "https://github.com/harshith-vaddiparthy/gen-ai-bootcamp-crm/blob/007a6ca08158b052419b73c32432cb0108401ed7/LICENSE"
     }
+  },
+  {
+    "slug": "talent-lens",
+    "name": "Talent Lens",
+    "category": "Dashboards",
+    "status": "Demo UI prototype",
+    "summary": "An interface prototype for a workforce dashboard and a searchable document library.",
+    "decisions": [
+      "Use distinct color and type treatments for navigation, trends and document metadata.",
+      "Keep demonstration and preview notices beside metrics, connector labels and storage controls.",
+      "Open document metadata beside the searchable library so the list stays in context."
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "shadcn/ui",
+      "Base UI",
+      "Recharts"
+    ],
+    "credit": "Application prototype by Harshith Vaddiparthy, built on shadcn/ui and Base UI. The TweakCN cyberpunk preset supplies the visual foundation, with Outfit and Fira Code.",
+    "repository": "https://github.com/harshith-vaddiparthy/talent-lens",
+    "sourceSha": "c92ae8d0f255214c0ecf4b283b4f9a33fa7ca75a",
+    "license": {
+      "name": "MIT",
+      "url": "https://github.com/harshith-vaddiparthy/talent-lens/blob/c92ae8d0f255214c0ecf4b283b4f9a33fa7ca75a/LICENSE"
+    },
+    "demo": null,
+    "screens": [
+      {
+        "label": "Workspace Library preview",
+        "src": "/ui-media/talent-lens-library-desktop.webp",
+        "full": "/ui-media/talent-lens-library-desktop.png",
+        "width": 1600,
+        "height": 1000,
+        "alt": "Talent Lens library preview with demonstration document rows, filters and disabled persistent-library controls.",
+        "caption": "Workspace Library preview. Bundled demonstration data; source and access labels are preview states."
+      },
+      {
+        "label": "Demonstration dashboard",
+        "src": "/ui-media/talent-lens-dashboard-desktop.webp",
+        "full": "/ui-media/talent-lens-dashboard-desktop.png",
+        "width": 1600,
+        "height": 1000,
+        "alt": "Talent Lens dark dashboard with its demonstration-data notice, overview cards and chart.",
+        "caption": "Demonstration dashboard. Bundled demonstration data; source and access labels are preview states."
+      },
+      {
+        "label": "Demo document detail",
+        "src": "/ui-media/talent-lens-document-detail-desktop.webp",
+        "full": "/ui-media/talent-lens-document-detail-desktop.png",
+        "width": 1600,
+        "height": 1000,
+        "alt": "Talent Lens document detail drawer showing the metadata and summary of a bundled demonstration document.",
+        "caption": "Demo document detail. Bundled demonstration data; source and access labels are preview states."
+      },
+      {
+        "label": "Mobile demonstration dashboard",
+        "src": "/ui-media/talent-lens-dashboard-mobile.webp",
+        "full": "/ui-media/talent-lens-dashboard-mobile.png",
+        "width": 390,
+        "height": 844,
+        "alt": "Mobile-width Talent Lens dashboard with the demo-data notice and stacked summary cards.",
+        "caption": "Mobile demonstration dashboard. Bundled demonstration data; source and access labels are preview states."
+      }
+    ]
+  },
+  {
+    "slug": "legal-vault",
+    "name": "Kenzai Legal Vault",
+    "category": "Workflows",
+    "status": "Local document workflow",
+    "summary": "A PDF-inspection workspace that keeps original pages beside extraction, diagnostics and cited search results.",
+    "decisions": [
+      "Keep the source PDF beside extracted text so the reader can compare them.",
+      "Expose page-level native/OCR status and diagnostics alongside the output.",
+      "Link local search snippets back to their source-page citations."
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "shadcn/ui",
+      "Base UI",
+      "Firecrawl PDF Inspector"
+    ],
+    "credit": "Document-workflow interface by Harshith Vaddiparthy. shadcn/Base UI provides the components, the browser displays the PDF, and Firecrawl PDF Inspector provides the parsing engine.",
+    "repository": "https://github.com/harshith-vaddiparthy/kenzai-legal-vault",
+    "sourceSha": "ba0d2104c0cdf376085fae60e6601127d18ccb35",
+    "license": {
+      "name": "MIT",
+      "url": "https://github.com/harshith-vaddiparthy/kenzai-legal-vault/blob/ba0d2104c0cdf376085fae60e6601127d18ccb35/LICENSE"
+    },
+    "demo": null,
+    "screens": [
+      {
+        "label": "Source PDF and parser output",
+        "src": "/ui-media/legal-vault-source-view-desktop.webp",
+        "full": "/ui-media/legal-vault-source-view-desktop.png",
+        "width": 1600,
+        "height": 1000,
+        "alt": "Legal Vault showing a fictional two-page project brief in the native PDF viewer alongside actual local parser output.",
+        "caption": "Source PDF and parser output. Fictional native-text PDF, processed and searched locally."
+      },
+      {
+        "label": "Page-level Markdown",
+        "src": "/ui-media/legal-vault-extracted-text-desktop.webp",
+        "full": "/ui-media/legal-vault-extracted-text-desktop.png",
+        "width": 1600,
+        "height": 1000,
+        "alt": "Legal Vault source page two beside its real native-text Markdown extraction.",
+        "caption": "Page-level Markdown. Fictional native-text PDF, processed and searched locally."
+      },
+      {
+        "label": "Local phrase search",
+        "src": "/ui-media/legal-vault-local-search-desktop.webp",
+        "full": "/ui-media/legal-vault-local-search-desktop.png",
+        "width": 1600,
+        "height": 1000,
+        "alt": "Legal Vault showing four actual local phrase-search matches with page citations and highlighted words from the fictional PDF.",
+        "caption": "Local phrase search. Fictional native-text PDF, processed and searched locally."
+      },
+      {
+        "label": "Phone reading view",
+        "src": "/ui-media/legal-vault-extracted-text-mobile.webp",
+        "full": "/ui-media/legal-vault-extracted-text-mobile.png",
+        "width": 390,
+        "height": 844,
+        "alt": "Legal Vault phone viewport scrolled to extracted page-two text from the same fictional local PDF.",
+        "caption": "Phone reading view. Fictional native-text PDF, processed and searched locally."
+      }
+    ]
   }
 ];

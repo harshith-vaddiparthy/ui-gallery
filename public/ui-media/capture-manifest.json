@@ -278,6 +278,150 @@
       "file": "/ui-media/pulse-crm-overview-mobile.png",
       "webImage": "/ui-media/pulse-crm-overview-mobile.webp",
       "webSha256": "0b44a837be4aef805f16e96f5e07658a77c3f653b1212465bf821d8967483d41"
+    },
+    {
+      "caseSlug": "talent-lens",
+      "title": "Workspace Library preview",
+      "alt": "Talent Lens library preview with demonstration document rows, filters and disabled persistent-library controls.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/talent-lens",
+      "sourceRef": "c92ae8d0f255214c0ecf4b283b4f9a33fa7ca75a",
+      "sourceRefStatus": "locally-confirmed exact source commit; no UI source modifications",
+      "capturedAt": "2026-10-18T06:41:27.241Z",
+      "fixtureMode": "Committed demoLibraryDocuments; storage and connectors explicitly preview-only",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "9761a70f4b5a213c963d09cd58db0c7b9ccfb4e391118d9a8313e86191249158",
+      "file": "/ui-media/talent-lens-library-desktop.png",
+      "webImage": "/ui-media/talent-lens-library-desktop.webp",
+      "webSha256": "351e07e5b7caa342d43b949ab327a93e33d3fe5839215a8da1d494cb2a98bf54"
+    },
+    {
+      "caseSlug": "talent-lens",
+      "title": "Demonstration dashboard",
+      "alt": "Talent Lens dark dashboard with its demonstration-data notice, overview cards and chart.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/talent-lens",
+      "sourceRef": "c92ae8d0f255214c0ecf4b283b4f9a33fa7ca75a",
+      "sourceRefStatus": "locally-confirmed exact source commit; no UI source modifications",
+      "capturedAt": "2026-10-18T06:41:20.359Z",
+      "fixtureMode": "Bundled app/dashboard/data.json; explicitly not employee records",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "9dba8d002d40fa1312f67c7971ea72e5b0965eadf2fc1595137d88206b5eae39",
+      "file": "/ui-media/talent-lens-dashboard-desktop.png",
+      "webImage": "/ui-media/talent-lens-dashboard-desktop.webp",
+      "webSha256": "446eb385a278948aee442740de3038013d0bffe8ab862589faab53cffbd70652"
+    },
+    {
+      "caseSlug": "talent-lens",
+      "title": "Demo document detail",
+      "alt": "Talent Lens document detail drawer showing the metadata and summary of a bundled demonstration document.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/talent-lens",
+      "sourceRef": "c92ae8d0f255214c0ecf4b283b4f9a33fa7ca75a",
+      "sourceRefStatus": "locally-confirmed exact source commit; no UI source modifications",
+      "capturedAt": "2026-10-18T06:41:30.186Z",
+      "fixtureMode": "Client-only selection of a committed demo document; no document fetched or processed",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "7b13ff9231f154dd57e1b7aabb5e2ad84946029f9d39c43d2b54252dd4040059",
+      "file": "/ui-media/talent-lens-document-detail-desktop.png",
+      "webImage": "/ui-media/talent-lens-document-detail-desktop.webp",
+      "webSha256": "598da37e86f0f283773c809e952105d84b6c6884bda9b5a7566ea6d9bc36a4f6"
+    },
+    {
+      "caseSlug": "talent-lens",
+      "title": "Mobile demonstration dashboard",
+      "alt": "Mobile-width Talent Lens dashboard with the demo-data notice and stacked summary cards.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/talent-lens",
+      "sourceRef": "c92ae8d0f255214c0ecf4b283b4f9a33fa7ca75a",
+      "sourceRefStatus": "locally-confirmed exact source commit; no UI source modifications",
+      "capturedAt": "2026-10-18T06:41:36.805Z",
+      "fixtureMode": "Same bundled dashboard JSON in a fresh mobile viewport context",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "18b667c2a92a793c22bf48376f64097a1c68aaf17f9cb924ac3762a65d1938e4",
+      "file": "/ui-media/talent-lens-dashboard-mobile.png",
+      "webImage": "/ui-media/talent-lens-dashboard-mobile.webp",
+      "webSha256": "84b1dfb25bcc90e036b251ccf0c265f0bf2b3aab15dc278b769f8f484a1c8921"
+    },
+    {
+      "caseSlug": "legal-vault",
+      "title": "Source PDF and parser output",
+      "alt": "Legal Vault showing a fictional two-page project brief in the native PDF viewer alongside actual local parser output.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/kenzai-legal-vault",
+      "sourceRef": "ba0d2104c0cdf376085fae60e6601127d18ccb35",
+      "sourceRefStatus": "Exact local source build, with real one-line font correction committed and verified on public main",
+      "capturedAt": "2026-10-18T06:42:22.505Z",
+      "fixtureMode": "Actual local parsing and search over fictional-project-brief.pdf; no private documents, OCR, or hosted model calls",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "b36c4ee2a13f9ed1cd95c7bc7318f254b54c76d94dbbde442e90d00e59f5727f",
+      "file": "/ui-media/legal-vault-source-view-desktop.png",
+      "webImage": "/ui-media/legal-vault-source-view-desktop.webp",
+      "webSha256": "8df3257778a6641ac309f3d8d4fe61052fdeee1257fa9ded99f6b80c743bffd2"
+    },
+    {
+      "caseSlug": "legal-vault",
+      "title": "Page-level Markdown",
+      "alt": "Legal Vault source page two beside its real native-text Markdown extraction.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/kenzai-legal-vault",
+      "sourceRef": "ba0d2104c0cdf376085fae60e6601127d18ccb35",
+      "sourceRefStatus": "Exact local source build, with real one-line font correction committed and verified on public main",
+      "capturedAt": "2026-10-18T06:42:24.417Z",
+      "fixtureMode": "Actual local parsing and search over fictional-project-brief.pdf; no private documents, OCR, or hosted model calls",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "21e714838dff5551fa0aa5e37f6000ee7171db9ee450fe853d9c7e598015746d",
+      "file": "/ui-media/legal-vault-extracted-text-desktop.png",
+      "webImage": "/ui-media/legal-vault-extracted-text-desktop.webp",
+      "webSha256": "c431dd328c527671227dd40231cb8018e58af521fa24e3358960c3daed710f72"
+    },
+    {
+      "caseSlug": "legal-vault",
+      "title": "Local phrase search",
+      "alt": "Legal Vault showing four actual local phrase-search matches with page citations and highlighted words from the fictional PDF.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/kenzai-legal-vault",
+      "sourceRef": "ba0d2104c0cdf376085fae60e6601127d18ccb35",
+      "sourceRefStatus": "Exact local source build, with real one-line font correction committed and verified on public main",
+      "capturedAt": "2026-10-18T06:46:50.089Z",
+      "fixtureMode": "Actual local parsing and search over fictional-project-brief.pdf; no private documents, OCR, or hosted model calls",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "d96aacafbc9f143550860be310e0d4ea9c14a1d223e5437b254f4c28eaa1867f",
+      "file": "/ui-media/legal-vault-local-search-desktop.png",
+      "webImage": "/ui-media/legal-vault-local-search-desktop.webp",
+      "webSha256": "a80534152c8e6025aa09926a6b6cf2d9413fb5d8da78bf249c5379d6184cd580"
+    },
+    {
+      "caseSlug": "legal-vault",
+      "title": "Phone reading view",
+      "alt": "Legal Vault phone viewport scrolled to extracted page-two text from the same fictional local PDF.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/kenzai-legal-vault",
+      "sourceRef": "ba0d2104c0cdf376085fae60e6601127d18ccb35",
+      "sourceRefStatus": "Exact local source build, with real one-line font correction committed and verified on public main",
+      "capturedAt": "2026-10-18T06:42:26.181Z",
+      "fixtureMode": "Actual local parsing and search over fictional-project-brief.pdf; no private documents, OCR, or hosted model calls",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "429061c907993727ecdc5fbba59d75b9c47435135cc85045d49b1e94a6329967",
+      "file": "/ui-media/legal-vault-extracted-text-mobile.png",
+      "webImage": "/ui-media/legal-vault-extracted-text-mobile.webp",
+      "webSha256": "679910d9658a8761c0c3c04c745db80cc0a582ae28f00da31ffe3f9e1c1a4ebb"
     }
   ]
 }
