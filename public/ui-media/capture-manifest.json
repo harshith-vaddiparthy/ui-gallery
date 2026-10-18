@@ -1,0 +1,283 @@
+{
+  "capturedFor": "UI Gallery by Harshith Vaddiparthy",
+  "assets": [
+    {
+      "caseSlug": "grain-studio",
+      "title": "Texture workbench",
+      "alt": "Grain Studio editor showing the included sample in Riso Print, its texture dock and material controls.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/grain-studio",
+      "sourceRef": "1efb17c2f33c5e2a3e11ab01293633725ae7a2dc",
+      "sourceRefStatus": "Repository HEAD verified at capture; live deployment SHA not separately exposed.",
+      "capturedAt": "2026-10-18T05:48:41.960Z",
+      "fixtureMode": "The application’s included generated studio-sample image; no user image uploaded.",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "77a110a8d97374ef8742ce8b149106dd3cb2111ba18c8a2179165398bb0c3b1c",
+      "sourceUrl": "https://grainstudio.harshith.com/",
+      "file": "/ui-media/grain-studio-editor-desktop.png",
+      "webImage": "/ui-media/grain-studio-editor-desktop.webp",
+      "webSha256": "e0c1b4c1dd965f9cbcb961a385575bc470446f49bf9ed9efef7c2162734df0a9"
+    },
+    {
+      "caseSlug": "grain-studio",
+      "title": "Original and texture comparison",
+      "alt": "Grain Studio split comparison of the included generated sample before and after Riso Print.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/grain-studio",
+      "sourceRef": "1efb17c2f33c5e2a3e11ab01293633725ae7a2dc",
+      "sourceRefStatus": "Repository HEAD verified at capture; live deployment SHA not separately exposed.",
+      "capturedAt": "2026-10-18T05:48:43.292Z",
+      "fixtureMode": "The application’s included generated studio-sample image; no user image uploaded.",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "2b41bf3ae1bf4ea917d298dfbc2e889707aa93459d530fe727c200627613f008",
+      "sourceUrl": "https://grainstudio.harshith.com/",
+      "file": "/ui-media/grain-studio-compare-desktop.png",
+      "webImage": "/ui-media/grain-studio-compare-desktop.webp",
+      "webSha256": "60fad01241a852e0c0b434d70b734d42414388fdf3efc0d263b5ca11e8205313"
+    },
+    {
+      "caseSlug": "grain-studio",
+      "title": "Export controls",
+      "alt": "Grain Studio export dialog showing PNG/JPEG/WebP, output dimensions and transparency controls.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/grain-studio",
+      "sourceRef": "1efb17c2f33c5e2a3e11ab01293633725ae7a2dc",
+      "sourceRefStatus": "Repository HEAD verified at capture; live deployment SHA not separately exposed.",
+      "capturedAt": "2026-10-18T05:48:44.364Z",
+      "fixtureMode": "The application’s included generated studio-sample image; no user image uploaded.",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "f2f53ea61c872803efa62b265c0787daf6faec2d5cc8bbf59d513cac3de9a4fc",
+      "sourceUrl": "https://grainstudio.harshith.com/",
+      "file": "/ui-media/grain-studio-export-desktop.png",
+      "webImage": "/ui-media/grain-studio-export-desktop.webp",
+      "webSha256": "26e9253074ac229d82d4651b4063484fba71542f928dae7c53dd6497e42d6633"
+    },
+    {
+      "caseSlug": "grain-studio",
+      "title": "Phone editor",
+      "alt": "Grain Studio phone layout with source preview, image actions, texture dock and material controls.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/grain-studio",
+      "sourceRef": "1efb17c2f33c5e2a3e11ab01293633725ae7a2dc",
+      "sourceRefStatus": "Repository HEAD verified at capture; live deployment SHA not separately exposed.",
+      "capturedAt": "2026-10-18T05:49:49.092Z",
+      "fixtureMode": "The application’s included generated studio-sample image; no user image uploaded.",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "ef231d42f8b76724cd742ff3b81f9f79730eb3aea34eeafb27dad4cc9758aa52",
+      "sourceUrl": "https://grainstudio.harshith.com/",
+      "file": "/ui-media/grain-studio-editor-mobile.png",
+      "webImage": "/ui-media/grain-studio-editor-mobile.webp",
+      "webSha256": "dee3ea8ef5a248178b3fae18a9f896f9290b393b02ff9ebaad746c1b5aa7454a"
+    },
+    {
+      "caseSlug": "ai-content-dashboard",
+      "title": "Content overview",
+      "alt": "AI Content Dashboard overview with fictional sample content metrics, activity and content mix.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/ai-content-dashboard",
+      "sourceRef": "fa0f1a0b64785f34d51f8caae5ef6aab8768ade4",
+      "sourceRefStatus": "Repository HEAD verified at capture; live deployment SHA not separately exposed.",
+      "capturedAt": "2026-10-18T05:51:39.983Z",
+      "fixtureMode": "Source-confirmed USING_SAMPLE_DATA=true and fictional bundled content. No generation, editing or store writes performed.",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "5f54c5e26eecbb3ee0aaa3c329584188cfc987ca6de15db9234c7e12ab351d44",
+      "sourceUrl": "https://ai-content-dashboard-murex.vercel.app/dashboard",
+      "file": "/ui-media/ai-content-dashboard-overview-desktop.png",
+      "webImage": "/ui-media/ai-content-dashboard-overview-desktop.webp",
+      "webSha256": "04e4301a57451247c5c336ddbafbaaa092b81b73e14b24a53adb86222ca43b74"
+    },
+    {
+      "caseSlug": "ai-content-dashboard",
+      "title": "Content library",
+      "alt": "AI Content Dashboard library with fictional sample pieces, status tabs and type filters.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/ai-content-dashboard",
+      "sourceRef": "fa0f1a0b64785f34d51f8caae5ef6aab8768ade4",
+      "sourceRefStatus": "Repository HEAD verified at capture; live deployment SHA not separately exposed.",
+      "capturedAt": "2026-10-18T05:51:42.206Z",
+      "fixtureMode": "Source-confirmed USING_SAMPLE_DATA=true and fictional bundled content. No generation, editing or store writes performed.",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "4497541f4f67b5b431029989cdc6e4876ae44a7e647c9852f998e721cd391e00",
+      "sourceUrl": "https://ai-content-dashboard-murex.vercel.app/library",
+      "file": "/ui-media/ai-content-dashboard-library-desktop.png",
+      "webImage": "/ui-media/ai-content-dashboard-library-desktop.webp",
+      "webSha256": "ac1d3ec2615d41b033fd373e9f123eaa7244f7a4686f96c63b3701404feb2c07"
+    },
+    {
+      "caseSlug": "ai-content-dashboard",
+      "title": "Brief to draft workspace",
+      "alt": "AI Content Dashboard blog brief form and empty draft review pane, without generation.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/ai-content-dashboard",
+      "sourceRef": "fa0f1a0b64785f34d51f8caae5ef6aab8768ade4",
+      "sourceRefStatus": "Repository HEAD verified at capture; live deployment SHA not separately exposed.",
+      "capturedAt": "2026-10-18T05:51:44.274Z",
+      "fixtureMode": "Source-confirmed USING_SAMPLE_DATA=true and fictional bundled content. No generation, editing or store writes performed.",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "10e517e80487939ddd525dc82f1d4976e07af38a88df3f3abc87f6681142a8fe",
+      "sourceUrl": "https://ai-content-dashboard-murex.vercel.app/generate/blog",
+      "file": "/ui-media/ai-content-dashboard-brief-desktop.png",
+      "webImage": "/ui-media/ai-content-dashboard-brief-desktop.webp",
+      "webSha256": "f0aacaa05b1f82e25c8bfeceb3ffc4abbab479067f0a63e76df24a9fa6ae0cea"
+    },
+    {
+      "caseSlug": "ai-content-dashboard",
+      "title": "Phone overview",
+      "alt": "AI Content Dashboard phone layout showing stacked fictional sample metrics.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/ai-content-dashboard",
+      "sourceRef": "fa0f1a0b64785f34d51f8caae5ef6aab8768ade4",
+      "sourceRefStatus": "Repository HEAD verified at capture; live deployment SHA not separately exposed.",
+      "capturedAt": "2026-10-18T05:51:45.395Z",
+      "fixtureMode": "Source-confirmed USING_SAMPLE_DATA=true and fictional bundled content. No generation, editing or store writes performed.",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "6e87b9107554a2a7aeea203c995eea9da08ef419f1cb46a0eb4b144342543f3d",
+      "sourceUrl": "https://ai-content-dashboard-murex.vercel.app/dashboard",
+      "file": "/ui-media/ai-content-dashboard-overview-mobile.png",
+      "webImage": "/ui-media/ai-content-dashboard-overview-mobile.webp",
+      "webSha256": "075bc28df45d3c17a2ab591ec7278af330a20bcfb036c42fb5c8b20aa4fa5b70"
+    },
+    {
+      "caseSlug": "ugc-genie",
+      "title": "Simulated workflow detail",
+      "alt": "UGC Genie client-side demo in progress, enlarged using the native canvas zoom controls. No generated video or provider execution is shown.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/UGC-dashboard",
+      "sourceRef": "274c42cc56864fb34c17b56e4743386aa4332e3f",
+      "sourceRefStatus": "Exact clean local source revision built with both public-demo flags; interface source unmodified.",
+      "capturedAt": "2026-10-18T06:09:04.404Z",
+      "fixtureMode": "Native client-side public-demo simulation. Both runtime flags set; all POST and external browser requests blocked; zero POST requests; stock sample video not displayed.",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "079f9c2fa69667007c61d878efbe361bec37cbcb92606ca1b9f5dfc567d057b3",
+      "file": "/ui-media/ugc-genie-workflow-zoom-desktop.png",
+      "webImage": "/ui-media/ugc-genie-workflow-zoom-desktop.webp",
+      "webSha256": "10e460a87be32feac454262d65a1d9fe098f0ad0a794000445e70bf9c33110f4"
+    },
+    {
+      "caseSlug": "ugc-genie",
+      "title": "Studio intake",
+      "alt": "UGC Genie studio in safe local public-demo mode with product intake, creative direction and six-stage workflow canvas.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/UGC-dashboard",
+      "sourceRef": "274c42cc56864fb34c17b56e4743386aa4332e3f",
+      "sourceRefStatus": "Exact clean local source revision built with both public-demo flags; interface source unmodified.",
+      "capturedAt": "2026-10-18T06:03:37.481Z",
+      "fixtureMode": "Native client-side public-demo simulation. Both runtime flags set; all POST and external browser requests blocked; zero POST requests; stock sample video not displayed.",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "c5723bf769f251bf6cb7f4e75c0a920ddc7ff0907d639a468094d7d524dfc3f6",
+      "file": "/ui-media/ugc-genie-studio-desktop.png",
+      "webImage": "/ui-media/ugc-genie-studio-desktop.webp",
+      "webSha256": "cbf04fdc9ae760443d038ff7a5bcaced6e44f8944a50fd8666ae2ef3d3e6f9ad"
+    },
+    {
+      "caseSlug": "ugc-genie",
+      "title": "Phone studio",
+      "alt": "UGC Genie phone layout in safe local public-demo mode with no-credit label and product intake controls.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/UGC-dashboard",
+      "sourceRef": "274c42cc56864fb34c17b56e4743386aa4332e3f",
+      "sourceRefStatus": "Exact clean local source revision built with both public-demo flags; interface source unmodified.",
+      "capturedAt": "2026-10-18T06:03:43.268Z",
+      "fixtureMode": "Native client-side public-demo simulation. Both runtime flags set; all POST and external browser requests blocked; zero POST requests; stock sample video not displayed.",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "1c4258b4f56d6514b1445db47ba2f609c048b8c90b4adf9638eaf8e59abc82a8",
+      "file": "/ui-media/ugc-genie-studio-mobile.png",
+      "webImage": "/ui-media/ugc-genie-studio-mobile.webp",
+      "webSha256": "a9d6fb2eaa3813464429091f2cc486ac544a8bb86e4bb95b115743dcf9472e86"
+    },
+    {
+      "caseSlug": "pulse-crm",
+      "title": "Sales overview",
+      "alt": "PulseCRM sales overview with bundled fictional pipeline, account and task fixtures, rendered in the intended Geist font.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/gen-ai-bootcamp-crm",
+      "sourceRef": "007a6ca08158b052419b73c32432cb0108401ed7",
+      "sourceRefStatus": "Exact local source revision: real one-line font-token fix committed and fast-forwarded to original main; no backend/config/environment change to the repository.",
+      "capturedAt": "2026-10-18T06:12:43.269Z",
+      "fixtureMode": "Fresh process with Supabase and AI credentials absent; bundled crm-data.ts fallback. Desktop visibly says Demo CRM data until Supabase is configured; mobile uses the same runtime but hides the label in its responsive header.",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "f3d6d5add07b8aa6925a14be68c2b6fb59ac038e73de0339e5e1f80f5d93819d",
+      "file": "/ui-media/pulse-crm-overview-desktop.png",
+      "webImage": "/ui-media/pulse-crm-overview-desktop.webp",
+      "webSha256": "7f3b985098f71cc1b8d00861dd407fa65e17f95444770c754c22758b4a47238b"
+    },
+    {
+      "caseSlug": "pulse-crm",
+      "title": "Forecast workspace",
+      "alt": "PulseCRM forecast page with bundled fictional commit, upside and risk figures, stage confidence and representative coverage.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/gen-ai-bootcamp-crm",
+      "sourceRef": "007a6ca08158b052419b73c32432cb0108401ed7",
+      "sourceRefStatus": "Exact local source revision: real one-line font-token fix committed and fast-forwarded to original main; no backend/config/environment change to the repository.",
+      "capturedAt": "2026-10-18T06:12:45.005Z",
+      "fixtureMode": "Fresh process with Supabase and AI credentials absent; bundled crm-data.ts fallback. Desktop visibly says Demo CRM data until Supabase is configured; mobile uses the same runtime but hides the label in its responsive header.",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "cd76294f8f8c5ecfb09fce3c07bd666e5166022c6515a8796295b15b7374a78a",
+      "file": "/ui-media/pulse-crm-forecast-desktop.png",
+      "webImage": "/ui-media/pulse-crm-forecast-desktop.webp",
+      "webSha256": "a0c3565f3edf09922e74fa24eba77c481efd433637d01088d3aa55605f4bce0d"
+    },
+    {
+      "caseSlug": "pulse-crm",
+      "title": "Human review workspace",
+      "alt": "PulseCRM recommendations layout with bundled fictional suggestions and task/note review controls. No AI generation or CRM write was performed.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/gen-ai-bootcamp-crm",
+      "sourceRef": "007a6ca08158b052419b73c32432cb0108401ed7",
+      "sourceRefStatus": "Exact local source revision: real one-line font-token fix committed and fast-forwarded to original main; no backend/config/environment change to the repository.",
+      "capturedAt": "2026-10-18T06:12:46.394Z",
+      "fixtureMode": "Fresh process with Supabase and AI credentials absent; bundled crm-data.ts fallback. Desktop visibly says Demo CRM data until Supabase is configured; mobile uses the same runtime but hides the label in its responsive header.",
+      "dimensions": [
+        1680,
+        1050
+      ],
+      "sha256": "f7a8d08a4b0003d1cae400896ac4efaa3d4b3b630f67944a73e98376fca51de0",
+      "file": "/ui-media/pulse-crm-recommendations-desktop.png",
+      "webImage": "/ui-media/pulse-crm-recommendations-desktop.webp",
+      "webSha256": "60276d3a3bc20bcbfc71856a07477ec3bc5a2a88b846ea4ce15093da3bcb9c77"
+    },
+    {
+      "caseSlug": "pulse-crm",
+      "title": "Phone sales overview",
+      "alt": "PulseCRM responsive phone overview using the same isolated bundled fixtures and corrected Geist font.",
+      "sourceRepository": "https://github.com/harshith-vaddiparthy/gen-ai-bootcamp-crm",
+      "sourceRef": "007a6ca08158b052419b73c32432cb0108401ed7",
+      "sourceRefStatus": "Exact local source revision: real one-line font-token fix committed and fast-forwarded to original main; no backend/config/environment change to the repository.",
+      "capturedAt": "2026-10-18T06:12:47.433Z",
+      "fixtureMode": "Fresh process with Supabase and AI credentials absent; bundled crm-data.ts fallback. Desktop visibly says Demo CRM data until Supabase is configured; mobile uses the same runtime but hides the label in its responsive header.",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "352a9ec0ac9e325181728005dc155e46aa741d7faa8ef2a71fba19c3e2c2d291",
+      "file": "/ui-media/pulse-crm-overview-mobile.png",
+      "webImage": "/ui-media/pulse-crm-overview-mobile.webp",
+      "webSha256": "0b44a837be4aef805f16e96f5e07658a77c3f653b1212465bf821d8967483d41"
+    }
+  ]
+}
